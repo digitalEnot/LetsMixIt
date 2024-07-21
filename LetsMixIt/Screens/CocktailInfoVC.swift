@@ -221,7 +221,7 @@ extension CocktailInfoVC: UICollectionViewDataSource {
             if indexPath.row != cocktail.equipments.count {
                 cell.set(message: cocktail.equipments[indexPath.row])
             } else {
-                cell.set(message: "Предпочтительный стакан: \(cocktail.preferedGlass)")
+                cell.set(message: "Подача: \(cocktail.preferedGlass)")
             }
             return cell
         }
