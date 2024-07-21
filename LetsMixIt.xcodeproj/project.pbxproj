@@ -7,15 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		732B70A62C32C73A00A41AFA /* LMIRangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732B70A52C32C73A00A41AFA /* LMIRangeSlider.swift */; };
+		734DEC382BD6A7F800EAFF20 /* CocktailDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734DEC372BD6A7F800EAFF20 /* CocktailDetailsCell.swift */; };
+		736F459D2C22FCB90059B120 /* FilterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F459C2C22FCB90059B120 /* FilterVC.swift */; };
+		737B97D22BEFA1AF004F1B50 /* FavoriteCocktailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737B97D12BEFA1AF004F1B50 /* FavoriteCocktailCell.swift */; };
 		738AE6812BD2BAE500A55595 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738AE6802BD2BAE500A55595 /* AppDelegate.swift */; };
 		738AE6832BD2BAE500A55595 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738AE6822BD2BAE500A55595 /* SceneDelegate.swift */; };
-		738AE6852BD2BAE500A55595 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738AE6842BD2BAE500A55595 /* ViewController.swift */; };
-		738AE6882BD2BAE500A55595 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 738AE6862BD2BAE500A55595 /* Main.storyboard */; };
 		738AE68A2BD2BAE600A55595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 738AE6892BD2BAE600A55595 /* Assets.xcassets */; };
 		738AE68D2BD2BAE600A55595 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 738AE68B2BD2BAE600A55595 /* LaunchScreen.storyboard */; };
 		738AE6982BD2BAE600A55595 /* LetsMixItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738AE6972BD2BAE600A55595 /* LetsMixItTests.swift */; };
 		738AE6A22BD2BAE600A55595 /* LetsMixItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738AE6A12BD2BAE600A55595 /* LetsMixItUITests.swift */; };
 		738AE6A42BD2BAE600A55595 /* LetsMixItUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738AE6A32BD2BAE600A55595 /* LetsMixItUITestsLaunchTests.swift */; };
+		738AE6B12BD2F4BA00A55595 /* LMITabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738AE6B02BD2F4BA00A55595 /* LMITabBarController.swift */; };
+		738AE6B32BD2F74000A55595 /* CocktailsLIstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738AE6B22BD2F74000A55595 /* CocktailsLIstVC.swift */; };
+		738AE6B52BD2F76800A55595 /* FavoritesCocktailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738AE6B42BD2F76800A55595 /* FavoritesCocktailsVC.swift */; };
+		738AE6B92BD315AB00A55595 /* cocktailsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 738AE6B82BD315AA00A55595 /* cocktailsData.json */; };
+		738AE6BC2BD3C43E00A55595 /* Cocktail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738AE6BB2BD3C43E00A55595 /* Cocktail.swift */; };
+		738AE6C52BD3E88300A55595 /* CocktailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738AE6C42BD3E88300A55595 /* CocktailCell.swift */; };
+		738AE6C82BD3E8C600A55595 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738AE6C72BD3E8C600A55595 /* UIHelper.swift */; };
+		738AE6CA2BD3E95F00A55595 /* CocktailInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738AE6C92BD3E95F00A55595 /* CocktailInfoVC.swift */; };
+		738AE6CD2BD3EF7100A55595 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738AE6CC2BD3EF7100A55595 /* Color+Ext.swift */; };
+		738AE6D12BD4637900A55595 /* Proof+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738AE6D02BD4637900A55595 /* Proof+Ext.swift */; };
+		738AE6D42BD5539A00A55595 /* LMIProofView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738AE6D32BD5539A00A55595 /* LMIProofView.swift */; };
+		73CB90F72BDD2C6C00A3B8EA /* PersistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CB90F62BDD2C6C00A3B8EA /* PersistanceManager.swift */; };
+		73CB90F92BDD2D5100A3B8EA /* LMIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CB90F82BDD2D5100A3B8EA /* LMIError.swift */; };
+		73D14EC82BDA8B0C00E23CD1 /* CocktailDescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D14EC72BDA8B0C00E23CD1 /* CocktailDescriptionCell.swift */; };
+		73D14ECA2BDA8B5700E23CD1 /* HeaderForCocktailsDeatails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D14EC92BDA8B5700E23CD1 /* HeaderForCocktailsDeatails.swift */; };
+		73D14ECE2BDA9A7700E23CD1 /* CocktailPhotoAndProofCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D14ECD2BDA9A7700E23CD1 /* CocktailPhotoAndProofCell.swift */; };
+		73EB1CDE2C0E0FBB007A8675 /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EB1CDD2C0E0FBB007A8675 /* JSONManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +55,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		732B70A52C32C73A00A41AFA /* LMIRangeSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMIRangeSlider.swift; sourceTree = "<group>"; };
+		734DEC372BD6A7F800EAFF20 /* CocktailDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailDetailsCell.swift; sourceTree = "<group>"; };
+		736F459C2C22FCB90059B120 /* FilterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterVC.swift; sourceTree = "<group>"; };
+		737B97D12BEFA1AF004F1B50 /* FavoriteCocktailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCocktailCell.swift; sourceTree = "<group>"; };
 		738AE67D2BD2BAE500A55595 /* LetsMixIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsMixIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		738AE6802BD2BAE500A55595 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		738AE6822BD2BAE500A55595 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		738AE6842BD2BAE500A55595 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		738AE6872BD2BAE500A55595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		738AE6892BD2BAE600A55595 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		738AE68C2BD2BAE600A55595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		738AE68E2BD2BAE600A55595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +70,23 @@
 		738AE69D2BD2BAE600A55595 /* LetsMixItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetsMixItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		738AE6A12BD2BAE600A55595 /* LetsMixItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsMixItUITests.swift; sourceTree = "<group>"; };
 		738AE6A32BD2BAE600A55595 /* LetsMixItUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsMixItUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		738AE6B02BD2F4BA00A55595 /* LMITabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMITabBarController.swift; sourceTree = "<group>"; };
+		738AE6B22BD2F74000A55595 /* CocktailsLIstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailsLIstVC.swift; sourceTree = "<group>"; };
+		738AE6B42BD2F76800A55595 /* FavoritesCocktailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesCocktailsVC.swift; sourceTree = "<group>"; };
+		738AE6B82BD315AA00A55595 /* cocktailsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cocktailsData.json; sourceTree = "<group>"; };
+		738AE6BB2BD3C43E00A55595 /* Cocktail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cocktail.swift; sourceTree = "<group>"; };
+		738AE6C42BD3E88300A55595 /* CocktailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailCell.swift; sourceTree = "<group>"; };
+		738AE6C72BD3E8C600A55595 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		738AE6C92BD3E95F00A55595 /* CocktailInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailInfoVC.swift; sourceTree = "<group>"; };
+		738AE6CC2BD3EF7100A55595 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		738AE6D02BD4637900A55595 /* Proof+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Proof+Ext.swift"; sourceTree = "<group>"; };
+		738AE6D32BD5539A00A55595 /* LMIProofView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMIProofView.swift; sourceTree = "<group>"; };
+		73CB90F62BDD2C6C00A3B8EA /* PersistanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceManager.swift; sourceTree = "<group>"; };
+		73CB90F82BDD2D5100A3B8EA /* LMIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMIError.swift; sourceTree = "<group>"; };
+		73D14EC72BDA8B0C00E23CD1 /* CocktailDescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailDescriptionCell.swift; sourceTree = "<group>"; };
+		73D14EC92BDA8B5700E23CD1 /* HeaderForCocktailsDeatails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderForCocktailsDeatails.swift; sourceTree = "<group>"; };
+		73D14ECD2BDA9A7700E23CD1 /* CocktailPhotoAndProofCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailPhotoAndProofCell.swift; sourceTree = "<group>"; };
+		73EB1CDD2C0E0FBB007A8675 /* JSONManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +114,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		732B70A42C32C71700A41AFA /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				732B70A52C32C73A00A41AFA /* LMIRangeSlider.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
 		738AE6742BD2BAE500A55595 = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +145,13 @@
 		738AE67F2BD2BAE500A55595 /* LetsMixIt */ = {
 			isa = PBXGroup;
 			children = (
-				738AE6802BD2BAE500A55595 /* AppDelegate.swift */,
-				738AE6822BD2BAE500A55595 /* SceneDelegate.swift */,
-				738AE6842BD2BAE500A55595 /* ViewController.swift */,
-				738AE6862BD2BAE500A55595 /* Main.storyboard */,
-				738AE6892BD2BAE600A55595 /* Assets.xcassets */,
-				738AE68B2BD2BAE600A55595 /* LaunchScreen.storyboard */,
+				73CB90F52BDD2C3500A3B8EA /* Managers */,
+				738AE6CB2BD3EF5B00A55595 /* Extension */,
+				738AE6C62BD3E8B900A55595 /* Utilities */,
+				738AE6BA2BD3C42200A55595 /* Model */,
+				738AE6C12BD3E79500A55595 /* CustomViews */,
+				738AE6BF2BD3E70A00A55595 /* Screens */,
+				738AE6C02BD3E73700A55595 /* Support */,
 				738AE68E2BD2BAE600A55595 /* Info.plist */,
 			);
 			path = LetsMixIt;
@@ -127,6 +174,104 @@
 			path = LetsMixItUITests;
 			sourceTree = "<group>";
 		};
+		738AE6BA2BD3C42200A55595 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				738AE6BB2BD3C43E00A55595 /* Cocktail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		738AE6BF2BD3E70A00A55595 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				738AE6B22BD2F74000A55595 /* CocktailsLIstVC.swift */,
+				736F459C2C22FCB90059B120 /* FilterVC.swift */,
+				738AE6C92BD3E95F00A55595 /* CocktailInfoVC.swift */,
+				738AE6B42BD2F76800A55595 /* FavoritesCocktailsVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		738AE6C02BD3E73700A55595 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				738AE6802BD2BAE500A55595 /* AppDelegate.swift */,
+				738AE6822BD2BAE500A55595 /* SceneDelegate.swift */,
+				738AE6892BD2BAE600A55595 /* Assets.xcassets */,
+				738AE6B82BD315AA00A55595 /* cocktailsData.json */,
+				738AE68B2BD2BAE600A55595 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		738AE6C12BD3E79500A55595 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				732B70A42C32C71700A41AFA /* Controls */,
+				738AE6D22BD5537300A55595 /* Views */,
+				738AE6C32BD3E86200A55595 /* Cells */,
+				738AE6C22BD3E7A000A55595 /* TabBarControllers */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		738AE6C22BD3E7A000A55595 /* TabBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				738AE6B02BD2F4BA00A55595 /* LMITabBarController.swift */,
+			);
+			path = TabBarControllers;
+			sourceTree = "<group>";
+		};
+		738AE6C32BD3E86200A55595 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				738AE6C42BD3E88300A55595 /* CocktailCell.swift */,
+				73D14ECD2BDA9A7700E23CD1 /* CocktailPhotoAndProofCell.swift */,
+				734DEC372BD6A7F800EAFF20 /* CocktailDetailsCell.swift */,
+				73D14EC72BDA8B0C00E23CD1 /* CocktailDescriptionCell.swift */,
+				73D14EC92BDA8B5700E23CD1 /* HeaderForCocktailsDeatails.swift */,
+				737B97D12BEFA1AF004F1B50 /* FavoriteCocktailCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		738AE6C62BD3E8B900A55595 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				738AE6C72BD3E8C600A55595 /* UIHelper.swift */,
+				73CB90F82BDD2D5100A3B8EA /* LMIError.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		738AE6CB2BD3EF5B00A55595 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				738AE6CC2BD3EF7100A55595 /* Color+Ext.swift */,
+				738AE6D02BD4637900A55595 /* Proof+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		738AE6D22BD5537300A55595 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				738AE6D32BD5539A00A55595 /* LMIProofView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		73CB90F52BDD2C3500A3B8EA /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				73CB90F62BDD2C6C00A3B8EA /* PersistanceManager.swift */,
+				73EB1CDD2C0E0FBB007A8675 /* JSONManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +288,8 @@
 			dependencies = (
 			);
 			name = LetsMixIt;
+			packageProductDependencies = (
+			);
 			productName = LetsMixIt;
 			productReference = 738AE67D2BD2BAE500A55595 /* LetsMixIt.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +362,8 @@
 				Base,
 			);
 			mainGroup = 738AE6742BD2BAE500A55595;
+			packageReferences = (
+			);
 			productRefGroup = 738AE67E2BD2BAE500A55595 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,9 +380,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				738AE6B92BD315AB00A55595 /* cocktailsData.json in Resources */,
 				738AE68D2BD2BAE600A55595 /* LaunchScreen.storyboard in Resources */,
 				738AE68A2BD2BAE600A55595 /* Assets.xcassets in Resources */,
-				738AE6882BD2BAE500A55595 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +407,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				738AE6852BD2BAE500A55595 /* ViewController.swift in Sources */,
+				73D14ECE2BDA9A7700E23CD1 /* CocktailPhotoAndProofCell.swift in Sources */,
+				738AE6D12BD4637900A55595 /* Proof+Ext.swift in Sources */,
+				73D14EC82BDA8B0C00E23CD1 /* CocktailDescriptionCell.swift in Sources */,
+				73CB90F72BDD2C6C00A3B8EA /* PersistanceManager.swift in Sources */,
+				738AE6D42BD5539A00A55595 /* LMIProofView.swift in Sources */,
+				738AE6BC2BD3C43E00A55595 /* Cocktail.swift in Sources */,
+				738AE6CA2BD3E95F00A55595 /* CocktailInfoVC.swift in Sources */,
+				738AE6C52BD3E88300A55595 /* CocktailCell.swift in Sources */,
+				738AE6B32BD2F74000A55595 /* CocktailsLIstVC.swift in Sources */,
 				738AE6812BD2BAE500A55595 /* AppDelegate.swift in Sources */,
+				738AE6B12BD2F4BA00A55595 /* LMITabBarController.swift in Sources */,
+				738AE6B52BD2F76800A55595 /* FavoritesCocktailsVC.swift in Sources */,
 				738AE6832BD2BAE500A55595 /* SceneDelegate.swift in Sources */,
+				73EB1CDE2C0E0FBB007A8675 /* JSONManager.swift in Sources */,
+				738AE6C82BD3E8C600A55595 /* UIHelper.swift in Sources */,
+				736F459D2C22FCB90059B120 /* FilterVC.swift in Sources */,
+				732B70A62C32C73A00A41AFA /* LMIRangeSlider.swift in Sources */,
+				737B97D22BEFA1AF004F1B50 /* FavoriteCocktailCell.swift in Sources */,
+				734DEC382BD6A7F800EAFF20 /* CocktailDetailsCell.swift in Sources */,
+				73CB90F92BDD2D5100A3B8EA /* LMIError.swift in Sources */,
+				73D14ECA2BDA8B5700E23CD1 /* HeaderForCocktailsDeatails.swift in Sources */,
+				738AE6CD2BD3EF7100A55595 /* Color+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +465,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		738AE6862BD2BAE500A55595 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				738AE6872BD2BAE500A55595 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		738AE68B2BD2BAE600A55595 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,7 +607,6 @@
 				INFOPLIST_FILE = LetsMixIt/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,7 +634,6 @@
 				INFOPLIST_FILE = LetsMixIt/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
