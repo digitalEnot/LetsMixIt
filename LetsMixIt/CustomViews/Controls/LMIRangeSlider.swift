@@ -3,7 +3,7 @@
 import UIKit
 
 final class LMIRangeSlider: UIControl {
-    static let circleRadius: CGFloat = 30
+    let circleRadius: CGFloat = 30
     var totalSliderWidth: CGFloat = 0
     var widthForMinThumb: CGFloat = 0 {
         didSet {
@@ -65,15 +65,15 @@ final class LMIRangeSlider: UIControl {
         addSubview(maxThumb)
                 
         firstRect.backgroundColor = UIColor.black.withAlphaComponent(0.2)
-        firstRect.frame = CGRect(x: 0, y: 20, width: totalSliderWidth + LMIRangeSlider.circleRadius, height: 3)
+        firstRect.frame = CGRect(x: 0, y: 20, width: totalSliderWidth + circleRadius, height: 3)
         
         progressRect.frame = CGRect(x: widthForMinThumb + 15, y: 20, width: widthForMaxThumb - widthForMinThumb, height: 3)
         progressRect.backgroundColor = UIColor(hex: "#FF7F50")
         
-        minThumb.frame = CGRect(x: widthForMinThumb, y: 5, width: LMIRangeSlider.circleRadius, height: LMIRangeSlider.circleRadius)
+        minThumb.frame = CGRect(x: widthForMinThumb, y: 5, width: circleRadius, height: circleRadius)
         configureThumb(thumb: minThumb)
         
-        maxThumb.frame = CGRect(x: widthForMaxThumb, y: 5, width: LMIRangeSlider.circleRadius, height: LMIRangeSlider.circleRadius)
+        maxThumb.frame = CGRect(x: widthForMaxThumb, y: 5, width: circleRadius, height: circleRadius)
         configureThumb(thumb: maxThumb)
 
         setRangeToDefaultFalues()

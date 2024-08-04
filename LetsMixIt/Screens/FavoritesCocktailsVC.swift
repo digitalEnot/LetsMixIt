@@ -10,7 +10,7 @@ import UIKit
 final class FavoritesCocktailsVC: UIViewController {
     var favorites: [Cocktail] = []
     var collectionView: UICollectionView = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewLayout())
-
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -48,20 +48,16 @@ final class FavoritesCocktailsVC: UIViewController {
         collectionView.register(FavoriteCocktailCell.self, forCellWithReuseIdentifier: FavoriteCocktailCell.reuseID)
     }
     
-    
-    func updateUI(with favorites: [Cocktail]) {
-        self.favorites = favorites
-        setNeedsUpdateContentUnavailableConfiguration()
-        DispatchQueue.main.async {
-            self.collectionView.reloadData()
-            self.view.bringSubviewToFront(self.collectionView)
-        }
-    }
 
     private func getFavorites() {
         do {
             let favoriteCoctails = try PersistanceManager.retrieveFavorites()
-            updateUI(with: favoriteCoctails)
+            self.favorites = favoriteCoctails
+            setNeedsUpdateContentUnavailableConfiguration()
+            DispatchQueue.main.async {
+                self.collectionView.reloadData()
+                self.view.bringSubviewToFront(self.collectionView)
+            }
         }
         catch {
             // TODO: Вместо вывода ошибки сделать уведомляющее окно
